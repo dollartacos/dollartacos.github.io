@@ -100,9 +100,18 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
+  font-family: "Unica One", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
 
   @include respond-above(md) {
     width: 100%;
     max-width: rem(950px);
+  }
+
+  a {
+    color: #f0bd39;
   }
 }

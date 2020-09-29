@@ -3,7 +3,12 @@ layout: default
 ---
 
 {% assign postsize = site.posts | size %} {% if postsize == 0 %}
-<div class="empty">There are no current sales. Check back soon.</div>
+<div class="empty">
+  <p>
+    No sales currently. Join
+    <a href="https://discord.gg/sCEE3Ce">Discord</a> for the latest updates.
+  </p>
+</div>
 {% else %}
 <ul>
   {% for post in site.posts limit:1 %}

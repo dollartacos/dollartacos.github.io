@@ -4,8 +4,6 @@ description: Handmade artisan keycaps.
 baseurl: ""
 url: "https://www.dollarta.co"
 
-markdown: kramdown
-
 sass:
   style: compressed
 
