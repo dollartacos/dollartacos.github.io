@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign postsize = site.posts | size %} {% if postsize == 0 %}
+<div class="empty">There are no current sales. Check back soon.</div>
+{% else %}
+<ul>
+  {% for post in site.posts limit:1 %}
+  <li>
+    {{ post }}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,19 @@
+{
+  "name": "DOLLARTACOS",
+  "short_name": "DOLLARTACOS",
+  "icons": [
+    {
+      "src": "https://www.dollarta.co//android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://www.dollarta.co//android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f0bd39",
+  "background_color": "#f0bd39",
+  "display": "standalone"
+}
